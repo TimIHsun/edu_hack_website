@@ -1,0 +1,2 @@
+"0","data <- read.csv(""~/Downloads/青年署活動資料.csv"")"
+"0","data <- data %>% select(""X"", ""description"")"

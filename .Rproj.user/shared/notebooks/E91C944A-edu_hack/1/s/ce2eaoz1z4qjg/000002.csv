@@ -1,0 +1,7 @@
+"0","seg_words <- list()"
+"0",""
+"0","for (i in 1:length(data$description)){"
+"0","  seg_words[[i]] <- segment(as.character(data$description[[i]]), cutter)"
+"0","}"
+"0",""
+"0","data$seg <- seg_words"

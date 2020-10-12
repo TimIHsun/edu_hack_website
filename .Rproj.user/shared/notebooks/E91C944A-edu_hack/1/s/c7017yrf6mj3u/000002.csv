@@ -1,0 +1,34 @@
+"0","library(readr)"
+"0","library(stringr)"
+"0","library(""tm"")"
+"2","Loading required package: NLP
+"
+"0","library(""SnowballC"")"
+"0","library(""wordcloud"")"
+"2","Loading required package: RColorBrewer
+"
+"0","library(""RColorBrewer"")"
+"0","library(showtext)"
+"2","Loading required package: sysfonts
+"
+"2","Loading required package: showtextdb
+"
+"0","library(jiebaR)"
+"2","Loading required package: jiebaRD
+"
+"0","library(jiebaRD)"
+"0","library(dplyr)"
+"2","
+Attaching package: ‘dplyr’
+
+"
+"2","The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+"
+"2","The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+"

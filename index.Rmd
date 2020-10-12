@@ -1,0 +1,12 @@
+
+
+<h1 class="title">
+芋仔
+</h1>
+
+<h2 style="text-align: center; font-size: 20px"> 
+未來發展探索平台
+</h2>
+
+<br><br>
+

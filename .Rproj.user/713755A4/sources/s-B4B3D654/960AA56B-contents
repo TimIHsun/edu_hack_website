@@ -1,0 +1,15 @@
+name: "uZhai"
+output_dir: "."
+navbar:
+  title: "芋仔"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
+output:
+  html_document:
+    theme:  paper
+    highlight: textmate
+    include:
+    css: webCss.css
