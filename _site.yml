@@ -2,7 +2,7 @@ name: "uZhai"
 output_dir: "."
 navbar:
   title: "芋仔"
-  left:
+  right:
     - text: "Home"
       href: index.html
     - text: "About"
@@ -11,5 +11,7 @@ output:
   html_document:
     theme:  paper
     highlight: textmate
-    include:
+    includes:
+      in_header: "bootstrap.html"
+      after_body: "boostrapJS.html"
     css: webCss.css

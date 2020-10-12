@@ -5,14 +5,14 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "126808499",
+    "hash" : "4183734915",
     "id" : "57E249D8",
-    "lastKnownWriteTime" : 1602502510,
-    "last_content_update" : 1602502510368,
+    "lastKnownWriteTime" : 1602507867,
+    "last_content_update" : 1602507867584,
     "path" : "~/Documents/GitHub/edu_hack_website/index.Rmd",
     "project_path" : "index.Rmd",
     "properties" : {
-        "cursorPosition" : "11,0",
+        "cursorPosition" : "0,0",
         "scrollLine" : "0"
     },
     "read_only" : false,

@@ -5,14 +5,14 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "2172147697",
+    "hash" : "0",
     "id" : "960AA56B",
-    "lastKnownWriteTime" : 1602502278,
-    "last_content_update" : 1602502278003,
+    "lastKnownWriteTime" : 1602507861,
+    "last_content_update" : 1602507861055,
     "path" : "~/Documents/GitHub/edu_hack_website/_site.yml",
     "project_path" : "_site.yml",
     "properties" : {
-        "cursorPosition" : "14,0",
+        "cursorPosition" : "7,19",
         "scrollLine" : "0"
     },
     "read_only" : false,
