@@ -7,6 +7,7 @@ output:
       in_header: "bootstrap.html"
       after_body: "boostrapJS.html"
 ---
+
 <div style="text-align: center;">
 <font class="highlight">
 芋仔
@@ -18,9 +19,8 @@ output:
 </h2>
 
 ---
-
+<div style="background-image: url('img/back.png');background-repeat:no-repeat; background-size:cover;">
 <br><br>
-
 <h3 style="text-align: center; font-size: 25px">
 關於我們
 </h3>
@@ -40,3 +40,5 @@ output:
 <center>
 <button type="button" class="btn btn-outline-success">報名/註冊</button>
 </center>
+<br><br>
+</div>

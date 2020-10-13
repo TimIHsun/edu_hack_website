@@ -36,19 +36,27 @@ output:
 <div id="orid">
 <div class="container">
 <div id="o" class="orid">
-o
+Objective｜你做了什麼？
 </div>
 <div id="r" class="orid">
-r
+Reflective｜令你覺得印象深刻的地方？
 </div>
 <div id="i" class="orid">
-i
+Interpretive｜做了這些事給你什麼感受？
 </div>
 <div id="d" class="orid">
-d
+Decisional｜做了這些事之後，你對未來有什麼想法？
 </div>
 <div>
 </div>
 
 </div>
 </div>
+
+<form>
+<div class="form-group">
+<label for="exampleFormControlTextarea1">Example textarea</label>
+<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+</div>
+<button type="submit" class="btn btn-primary">Submit</button>
+</form>
