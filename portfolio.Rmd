@@ -1,0 +1,44 @@
+<div class="divborder">
+<div class="divborder2">
+
+<div id="info_act" class="container">
+<div class="childB">
+<img src="img/p1.png" style="width: 300px"> </img>
+</div>
+<div class="childB">
+<h3 id="title_act"> 109年度社造人才培育課程</h1>
+<h5 id="subtag_act"> #培訓研習 #進修 </h5>
+---
+主辦單位：新北市政府
+
+日期： 2020/10/30 ~ 2021/01/08
+
+年齡限制：不限
+
+活動連結：https://reurl.cc/XkqmAR
+
+活動說明：<br>
+本課程希望募集關心公共議題的熱心夥伴一起擔任觀察員，找出桃園都會之美，引領居民思考生活議題，學習撰擬社造計畫，用行動讓桃園變得更美好！
+</div>
+
+</div>
+
+<div id="orid">
+<div class="container">
+<div id="o" class="orid">
+o
+</div>
+<div id="r" class="orid">
+r
+</div>
+<div id="i" class="orid">
+i
+</div>
+<div id="d" class="orid">
+d
+</div>
+</div>
+</div>
+
+</div>
+</div>
