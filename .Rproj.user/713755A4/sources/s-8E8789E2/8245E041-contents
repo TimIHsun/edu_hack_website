@@ -1,0 +1,9 @@
+---
+output:
+  html_document:
+    theme:  paper
+    highlight: textmate
+    includes:
+      in_header: "bootstrap.html"
+      after_body: "boostrapJS.html"
+---

@@ -1,24 +1,25 @@
 {
     "collab_server" : "",
     "contents" : "",
-    "created" : 1600565089195.000,
+    "created" : 1602561004286.000,
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
     "hash" : "0",
-    "id" : "57E249D8",
-    "lastKnownWriteTime" : 1602512001,
-    "last_content_update" : 1602512001034,
-    "path" : "~/Documents/GitHub/edu_hack_website/index.Rmd",
-    "project_path" : "index.Rmd",
+    "id" : "C42485CE",
+    "lastKnownWriteTime" : 1602561346,
+    "last_content_update" : 1602561346935,
+    "path" : "~/Documents/GitHub/edu_hack_website/recommendation.Rmd",
+    "project_path" : "recommendation.Rmd",
     "properties" : {
         "cursorPosition" : "8,3",
-        "scrollLine" : "0"
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
     },
     "read_only" : false,
     "read_only_alternatives" : [
     ],
-    "relative_order" : 2,
+    "relative_order" : 7,
     "source_on_save" : false,
     "source_window" : "",
     "type" : "r_markdown"
