@@ -134,6 +134,7 @@ activities_final %>% filter(activities_final$category=="藝術文化")-> arts
 </div>
 
 ---
+
 商業管理
 
 
@@ -255,6 +256,7 @@ activities_final %>% filter(activities_final$category=="藝術文化")-> arts
 
 </div>
 
+---
 
 
 <div class="divborder3">

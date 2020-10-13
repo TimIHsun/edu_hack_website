@@ -7,6 +7,25 @@ output:
       in_header: "bootstrap.html"
       after_body: "boostrapJS.html"
 ---
+```{js}
+function showalert(){
+        alert("這是一個提示訊息！\n「\\n」可以使提示訊息換行。");
+    }
+```
+```{r}
+names(knitr::knit_engines$get())
+```
+
+
+
+
+<body onload="showalert()">
+<h2>「alert()」函數範例 - JS - 萌芽の網頁設計實驗室</h2>
+<p>網站內容：提示訊息示範</p>
+<input type="button" onclick="showalert()" value="點我跳出提示視窗" />
+</body>
+
+
 
 <div class="divborder">
 <div class="divborder2">
