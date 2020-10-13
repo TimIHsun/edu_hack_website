@@ -34,16 +34,14 @@
     margin: 20px;
     font-size: 20px;
     text-align: left;
-    width: 400px;
-    padding: 10px;
+    width: 300px;
   }
  
 .childB{
     margin: 20px;
     font-size: 20px;
     text-align: left;
-    width: 400px;
-    padding: 10px;
+    width: 300px;
   }
 
 .content{
@@ -58,7 +56,7 @@
 
 .orid{
   border: 1px solid black; padding: 3px; margin: 20px; 
-  width: 450px; height: 200px;
+  width: 40%; height: 200px;
 }
 
-
+body {margin:0;padding:0}
