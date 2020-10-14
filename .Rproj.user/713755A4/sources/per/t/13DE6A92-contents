@@ -14,8 +14,18 @@ activities_final <- read_csv("activities_final.csv")
 
 activities_final %>% filter(activities_final$category=="藝術文化")-> arts
 ```
+<div style="text-align: center;">
+<font class="highlight">
+推薦系統
+</font>
+</div>
+<h2 style="text-align: center; font-size: 20px"> 
+起身參加吧！
+</h2>
 
-藝術文化
+---
+
+<h2>藝術文化</h2>
 <div class="container my-4">
 
     
@@ -52,7 +62,7 @@ activities_final %>% filter(activities_final$category=="藝術文化")-> arts
 <div class="card-body">
 <h4 class="card-title">中國文化大學 「 大學生活體驗營 飛躍俄羅斯 」</h4>
 <p class="card-text">#藝術領域</p>
-<a class="btn btn-primary">Button</a>
+<a class="btn btn-primary">查看更多</a>
 </div>
 </div>
 </div>
@@ -63,7 +73,9 @@ activities_final %>% filter(activities_final$category=="藝術文化")-> arts
 <div class="card-body">
 <h4 class="card-title">2021東海工設營-HIDEsign</h4>
 <p class="card-text">藝術領域</p>
-<a class="btn btn-primary">Button</a>
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+  查看更多
+</button>
 </div>
 </div>
 </div>
@@ -74,7 +86,7 @@ activities_final %>% filter(activities_final$category=="藝術文化")-> arts
 <div class="card-body">
 <h4 class="card-title">「青春就要醬 We are young」─ 青少年劇場表演藝術人才培育實作坊</h4>
 <p class="card-text">藝術領域</p>
-<a class="btn btn-primary">Button</a>
+<a class="btn btn-primary">查看更多</a>
 </div>
 </div>
 </div>
@@ -93,7 +105,7 @@ activities_final %>% filter(activities_final$category=="藝術文化")-> arts
 <div class="card-body">
 <h4 class="card-title">【青春期 / 我世代・我的時代】創造屬於你的時尚風格</h4>
 <p class="card-text">藝術領域</p>
-<a class="btn btn-primary">Button</a>
+<a class="btn btn-primary">查看更多</a>
 </div>
 </div>
 </div>
@@ -104,7 +116,7 @@ activities_final %>% filter(activities_final$category=="藝術文化")-> arts
 <div class="card-body">
 <h4 class="card-title">2020 滯留島舞蹈劇場 X 台江文化中心【說故事身體繪本】工作坊</h4>
 <p class="card-text">藝術領域</p>
-<a class="btn btn-primary">Button</a>
+<a class="btn btn-primary">查看更多</a>
 </div>
 </div>
 </div>
@@ -115,7 +127,7 @@ activities_final %>% filter(activities_final$category=="藝術文化")-> arts
 <div class="card-body">
 <h4 class="card-title">2020年原住民琉璃珠手作DIY體驗活動</h4>
 <p class="card-text">藝術領域</p>
-<a class="btn btn-primary">Button</a>
+<a class="btn btn-primary">查看更多</a>
 </div>
 </div>
 </div>
@@ -134,7 +146,8 @@ activities_final %>% filter(activities_final$category=="藝術文化")-> arts
 </div>
 
 ---
-商業管理
+
+<h2>商業管理</h2>
 
 
 <div class="container my-4">
@@ -173,7 +186,7 @@ activities_final %>% filter(activities_final$category=="藝術文化")-> arts
 <div class="card-body">
 <h4 class="card-title">110年度「補助業界開發國際市場計畫」</h4>
 <p class="card-text">綜合活動領域</p>
-<a class="btn btn-primary">Button</a>
+<a class="btn btn-primary">查看更多</a>
 </div>
 </div>
 </div>
@@ -184,7 +197,7 @@ activities_final %>% filter(activities_final$category=="藝術文化")-> arts
 <div class="card-body">
 <h4 class="card-title">2020職場達人探索營</h4>
 <p class="card-text">綜合活動領域</p>
-<a class="btn btn-primary">Button</a>
+<a class="btn btn-primary">查看更多</a>
 </div>
 </div>
 </div>
@@ -195,7 +208,7 @@ activities_final %>% filter(activities_final$category=="藝術文化")-> arts
 <div class="card-body">
 <h4 class="card-title">2020台灣模擬聯合國會議 (TWMUN)</h4>
 <p class="card-text">綜合活動領域</p>
-<a class="btn btn-primary">Button</a>
+<a class="btn btn-primary">查看更多</a>
 </div>
 </div>
 </div>
@@ -214,7 +227,7 @@ activities_final %>% filter(activities_final$category=="藝術文化")-> arts
 <div class="card-body">
 <h4 class="card-title">偷偷告數你#2021嘉大數位廣告營</h4>
 <p class="card-text">綜合活動領域</p>
-<a class="btn btn-primary">Button</a>
+<a class="btn btn-primary">查看更多</a>
 </div>
 </div>
 </div>
@@ -225,7 +238,7 @@ activities_final %>% filter(activities_final$category=="藝術文化")-> arts
 <div class="card-body">
 <h4 class="card-title">臺北大學第十二屆金融研習營</h4>
 <p class="card-text">綜合活動領域</p>
-<a class="btn btn-primary">Button</a>
+<a class="btn btn-primary">查看更多</a>
 </div>
 </div>
 </div>
@@ -236,7 +249,7 @@ activities_final %>% filter(activities_final$category=="藝術文化")-> arts
 <div class="card-body">
 <h4 class="card-title">2020台北新貿獎</h4>
 <p class="card-text">綜合活動領域</p>
-<a class="btn btn-primary">Button</a>
+<a class="btn btn-primary">查看更多</a>
 </div>
 </div>
 </div>
@@ -253,4 +266,58 @@ activities_final %>% filter(activities_final$category=="藝術文化")-> arts
 <!--/.Carousel Wrapper-->
 
 
+</div>
+
+---
+
+
+<!-- Button trigger modal
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+  Launch demo modal
+</button> -->
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title" id="exampleModalLongTitle">藝術文化</h5>
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+<span aria-hidden="true">&times;</span>
+</button>
+</div>
+
+<!--modal-body-->
+
+<div class="modal-body">
+<center>
+<img src= "https://scontent.ftpe8-3.fna.fbcdn.net/v/t1.0-9/s960x960/119734703_758480898328972_3563036071666036088_o.jpg?_nc_cat=107&_nc_sid=e3f864&_nc_ohc=XfgueKrtEqQAX9C16uv&_nc_oc=AQkIOmkaAn-qXXelDmIvRo4t-L2UAEufDhpbqLKL3rCHif6yc9wykE_X_ZtQcPfOOZQ&_nc_ht=scontent.ftpe8-3.fna&tp=7&oh=ad3e8d6dfcd2a018ad9841f3e3cfb94d&oe=5FA53522" width="200" height="100"></img>
+<h3 id="title_act"> 2021東海工設營-HIDEsign</h1>
+<h5 id="subtag_act"> 藝術領域 </h5>
+</center>
+<div class="childA" class="mx-auto">
+主辦單位：東海大學
+
+日期： 2021/1/23-1/27
+
+年齡限制：15歲~18歲
+
+活動連結：https://reurl.cc/e8MeMm
+
+活動說明：<br><br>
+將藉由設計課程、實作體驗、團體活動等方式帶領學員認識工業設計。
+</div>
+<center>
+<a href="profile.html">
+<button type="button" class="btn btn-outline-success">加入我的最愛</button></a>
+</center>
+</div>
+
+<br>
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
 </div>

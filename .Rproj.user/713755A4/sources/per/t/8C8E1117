@@ -5,16 +5,16 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "0",
+    "hash" : "2719086567",
     "id" : "8C8E1117",
-    "lastKnownWriteTime" : 1602656886,
-    "last_content_update" : 1602656886,
+    "lastKnownWriteTime" : 1602680415,
+    "last_content_update" : 1602680415984,
     "path" : "~/Documents/GitHub/edu_hack_website/portfolio.Rmd",
     "project_path" : "portfolio.Rmd",
     "properties" : {
         "chunk_output_type" : "console",
-        "cursorPosition" : "75,23",
-        "scrollLine" : "65"
+        "cursorPosition" : "40,9",
+        "scrollLine" : "26"
     },
     "read_only" : false,
     "read_only_alternatives" : [

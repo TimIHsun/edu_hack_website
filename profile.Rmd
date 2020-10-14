@@ -7,7 +7,14 @@ output:
       in_header: "bootstrap.html"
       after_body: "boostrapJS.html"
 ---
-
+<div style="text-align: center;">
+<font class="highlight">
+你的最愛
+</font>
+</div>
+<h2 style="text-align: center; font-size: 20px"> 
+參加完活動了嗎，記得記錄歷程噢！
+</h2>
 
 <div class="divborder3">
 <img src= "https://scontent.ftpe8-3.fna.fbcdn.net/v/t1.0-9/s960x960/119734703_758480898328972_3563036071666036088_o.jpg?_nc_cat=107&_nc_sid=e3f864&_nc_ohc=XfgueKrtEqQAX9C16uv&_nc_oc=AQkIOmkaAn-qXXelDmIvRo4t-L2UAEufDhpbqLKL3rCHif6yc9wykE_X_ZtQcPfOOZQ&_nc_ht=scontent.ftpe8-3.fna&tp=7&oh=ad3e8d6dfcd2a018ad9841f3e3cfb94d&oe=5FA53522" width="200" height="100">
@@ -24,7 +31,7 @@ output:
 
 年齡限制：15歲~18歲
 
-活動連結：https://www.facebook.com/2021.thuid/
+活動連結：https://reurl.cc/e8MeMm
 </div>
 <div class="childA">
 活動說明：<br><br>
