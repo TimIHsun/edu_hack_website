@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1602624903662.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "DE2C8DC3",
+    "lastKnownWriteTime" : 1602665056,
+    "last_content_update" : 1602665056364,
+    "path" : "~/Documents/GitHub/edu_hack_website/profile.Rmd",
+    "project_path" : "profile.Rmd",
+    "properties" : {
+        "cursorPosition" : "36,73",
+        "scrollLine" : "17",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 10,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

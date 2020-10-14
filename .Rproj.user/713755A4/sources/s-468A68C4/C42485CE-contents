@@ -1,0 +1,293 @@
+---
+output:
+  html_document:
+    theme:  paper
+    highlight: textmate
+    includes:
+      in_header: "bootstrap.html"
+      after_body: "boostrapJS.html"
+---
+```{r include=FALSE}
+library(readr)
+library(dplyr)
+activities_final <- read_csv("activities_final.csv")
+
+activities_final %>% filter(activities_final$category=="藝術文化")-> arts
+```
+
+
+藝術文化
+<div class="container my-4">
+
+    
+<hr class="my-4">
+
+<!--Carousel Wrapper-->
+<div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
+
+<!--Controls-->
+<div class="controls-top">
+<a class="btn-floating" href="#multi-item-example" data-slide="prev"><i class="fa fa-chevron-left"></i></a>
+<a class="btn-floating" href="#multi-item-example" data-slide="next"><i class="fa fa-chevron-right"></i></a>
+</div>
+<!--/.Controls-->
+
+<!--Indicators-->
+<ol class="carousel-indicators">
+<li data-target="#multi-item-example" data-slide-to="0" class="active"></li>
+<li data-target="#multi-item-example" data-slide-to="1"></li>
+<li data-target="#multi-item-example" data-slide-to="2"></li>
+</ol>
+<!--/.Indicators-->
+
+<!--Slides-->
+<div class="carousel-inner" role="listbox">
+
+<!--First slide-->
+<div class="carousel-item active">
+
+<div class="row">
+<div class="col-md-4">
+<div class="card mb-2">
+<img class="card-img-top" src="https://crgarl.pccu.edu.tw/ezfiles/80/1080/img/2092/446509105.jpg" alt="Card image cap" style="width: 271px; height:180px">
+<div class="card-body">
+<h4 class="card-title">中國文化大學 「 大學生活體驗營 飛躍俄羅斯 」</h4>
+<p class="card-text">#藝術領域</p>
+<a class="btn btn-primary">Button</a>
+</div>
+</div>
+</div>
+
+<div class="col-md-4 clearfix d-none d-md-block">
+<div class="card mb-2">
+<img class="card-img-top" src="https://scontent.ftpe8-3.fna.fbcdn.net/v/t1.0-9/s960x960/119734703_758480898328972_3563036071666036088_o.jpg?_nc_cat=107&_nc_sid=e3f864&_nc_ohc=XfgueKrtEqQAX9C16uv&_nc_oc=AQkIOmkaAn-qXXelDmIvRo4t-L2UAEufDhpbqLKL3rCHif6yc9wykE_X_ZtQcPfOOZQ&_nc_ht=scontent.ftpe8-3.fna&tp=7&oh=ad3e8d6dfcd2a018ad9841f3e3cfb94d&oe=5FA53522"  alt="Card image cap" style="width: 271px; height:180px">
+<div class="card-body">
+<h4 class="card-title">2021東海工設營-HIDEsign</h4>
+<p class="card-text">藝術領域</p>
+<a class="btn btn-primary">Button</a>
+</div>
+</div>
+</div>
+
+<div class="col-md-4 clearfix d-none d-md-block">
+<div class="card mb-2">
+<img class="card-img-top" src="https://ntdcamp.com/wp-content/uploads/2020/06/118212967_1674592699370068_7632596567920614441_o-1-600x338.jpg" alt="Card image cap" style="width: 271px; height:180px">
+<div class="card-body">
+<h4 class="card-title">「青春就要醬 We are young」─ 青少年劇場表演藝術人才培育實作坊</h4>
+<p class="card-text">藝術領域</p>
+<a class="btn btn-primary">Button</a>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+<!--/.First slide-->
+
+<!--Second slide-->
+<div class="carousel-item">
+
+<div class="row">
+<div class="col-md-4">
+<div class="card mb-2">
+<img class="card-img-top" src="https://ntdcamp.com/wp-content/uploads/2020/08/104889624_155625599406211_4231512766485154353_o-600x222.jpg" alt="Card image cap" style="width: 271px; height:180px">
+<div class="card-body">
+<h4 class="card-title">【青春期 / 我世代・我的時代】創造屬於你的時尚風格</h4>
+<p class="card-text">藝術領域</p>
+<a class="btn btn-primary">Button</a>
+</div>
+</div>
+</div>
+
+<div class="col-md-4 clearfix d-none d-md-block">
+<div class="card mb-2">
+<img class="card-img-top" src="https://ntdcamp.com/wp-content/uploads/2020/06/drz-__-N_INAlQoO6Y-unsplash-600x900.jpg"  alt="Card image cap" style="width: 271px; height:180px">
+<div class="card-body">
+<h4 class="card-title">2020 滯留島舞蹈劇場 X 台江文化中心【說故事身體繪本】工作坊</h4>
+<p class="card-text">藝術領域</p>
+<a class="btn btn-primary">Button</a>
+</div>
+</div>
+</div>
+
+<div class="col-md-4 clearfix d-none d-md-block">
+<div class="card mb-2">
+<img class="card-img-top" src="https://ntdcamp.com/wp-content/uploads/2020/08/160129273453199_P8653369-600x399.jpg" alt="Card image cap" style="width: 271px; height:180px">
+<div class="card-body">
+<h4 class="card-title">2020年原住民琉璃珠手作DIY體驗活動</h4>
+<p class="card-text">藝術領域</p>
+<a class="btn btn-primary">Button</a>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+<!--/.Second slide-->
+
+
+</div>
+<!--/.Slides-->
+</div>
+<!--/.Carousel Wrapper-->
+
+
+</div>
+
+---
+
+商業管理
+
+
+<div class="container my-4">
+
+    
+<hr class="my-4">
+
+<!--Carousel Wrapper-->
+<div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
+
+<!--Controls-->
+<div class="controls-top">
+<a class="btn-floating" href="#multi-item-example" data-slide="prev"><i class="fa fa-chevron-left"></i></a>
+<a class="btn-floating" href="#multi-item-example" data-slide="next"><i class="fa fa-chevron-right"></i></a>
+</div>
+<!--/.Controls-->
+
+<!--Indicators-->
+<ol class="carousel-indicators">
+<li data-target="#multi-item-example" data-slide-to="0" class="active"></li>
+<li data-target="#multi-item-example" data-slide-to="1"></li>
+<li data-target="#multi-item-example" data-slide-to="2"></li>
+</ol>
+<!--/.Indicators-->
+
+<!--Slides-->
+<div class="carousel-inner" role="listbox">
+
+<!--First slide-->
+<div class="carousel-item active">
+
+<div class="row">
+<div class="col-md-4">
+<div class="card mb-2">
+<img class="card-img-top" src="https://youth-resources.yda.gov.tw//Files/Projects/2020/0827/1026/Cover/4220066_c7d1.jpg" alt="Card image cap" style="width: 271px" style="width: 271px; height:180px">
+<div class="card-body">
+<h4 class="card-title">110年度「補助業界開發國際市場計畫」</h4>
+<p class="card-text">綜合活動領域</p>
+<a class="btn btn-primary">Button</a>
+</div>
+</div>
+</div>
+
+<div class="col-md-4 clearfix d-none d-md-block">
+<div class="card mb-2">
+<img class="card-img-top" src="https://lh6.googleusercontent.com/D29I4n8qxeuuMUeOlb8WcPh1dE1r7ZlsXfprGkoEoyWte_0VdBCSeCR82iq7cvnCxy6Q8aM4NlQUHDnUQ6sOki9bGpSP08cF5yqYPwakdeLS-w38XsaxIDk0ZG9C=w1520"  alt="Card image cap" style="width: 271px; height:180px">
+<div class="card-body">
+<h4 class="card-title">2020職場達人探索營</h4>
+<p class="card-text">綜合活動領域</p>
+<a class="btn btn-primary">Button</a>
+</div>
+</div>
+</div>
+
+<div class="col-md-4 clearfix d-none d-md-block">
+<div class="card mb-2">
+<img class="card-img-top" src="https://ntdcamp.com/wp-content/uploads/2020/07/螢幕快照-2020-10-02-下午2.03.50-600x401.png" alt="Card image cap" style="width: 271px; height:180px">
+<div class="card-body">
+<h4 class="card-title">2020台灣模擬聯合國會議 (TWMUN)</h4>
+<p class="card-text">綜合活動領域</p>
+<a class="btn btn-primary">Button</a>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+<!--/.First slide-->
+
+<!--Second slide-->
+<div class="carousel-item">
+
+<div class="row">
+<div class="col-md-4">
+<div class="card mb-2">
+<img class="card-img-top" src="https://scontent.ftpe8-2.fna.fbcdn.net/v/t1.0-9/s960x960/118943086_831628697576234_1507107965555619985_o.jpg?_nc_cat=100&_nc_sid=e3f864&_nc_ohc=3fBvcJDLcOUAX_3dLCA&_nc_ht=scontent.ftpe8-2.fna&tp=7&oh=87eb5c96ebb3f7722ad1679d7a2a6760&oe=5FA78D82" alt="Card image cap" style="width: 271px; height:180px">
+<div class="card-body">
+<h4 class="card-title">偷偷告數你#2021嘉大數位廣告營</h4>
+<p class="card-text">綜合活動領域</p>
+<a class="btn btn-primary">Button</a>
+</div>
+</div>
+</div>
+
+<div class="col-md-4 clearfix d-none d-md-block">
+<div class="card mb-2">
+<img class="card-img-top" src="https://scontent.ftpe8-2.fna.fbcdn.net/v/t1.0-0/p180x540/118695561_3413912401999814_953501754491201642_o.jpg?_nc_cat=103&_nc_sid=e3f864&_nc_ohc=IE5V3eB9KL0AX_xTGzP&_nc_ht=scontent.ftpe8-2.fna&tp=6&oh=ac5ff749dc07fd748dcb5695573f8a6b&oe=5FA51667"  alt="Card image cap" style="width: 271px; height:180px">
+<div class="card-body">
+<h4 class="card-title">臺北大學第十二屆金融研習營</h4>
+<p class="card-text">綜合活動領域</p>
+<a class="btn btn-primary">Button</a>
+</div>
+</div>
+</div>
+
+<div class="col-md-4 clearfix d-none d-md-block">
+<div class="card mb-2">
+<img class="card-img-top" src="https://youth-resources.yda.gov.tw//Files/Projects/2020/0708/1007/Cover/5241217_d47a.jpg" alt="Card image cap" style="width: 271px; height:180px">
+<div class="card-body">
+<h4 class="card-title">2020台北新貿獎</h4>
+<p class="card-text">綜合活動領域</p>
+<a class="btn btn-primary">Button</a>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+<!--/.Second slide-->
+
+
+
+</div>
+<!--/.Slides-->
+</div>
+<!--/.Carousel Wrapper-->
+
+
+</div>
+
+---
+
+
+<div class="divborder3">
+<img src= "img/p3.png" width="200" alt="...">
+<h3 id="title_act"> 109年度社造人才培育課程</h1>
+<h5 id="subtag_act"> #培訓研習 #進修 </h5>
+---
+<center>
+<div class="container">
+
+<div class="childA">
+主辦單位：新北市政府
+
+日期： 2020/10/30 ~ 2021/01/08
+
+年齡限制：不限
+
+活動連結：https://reurl.cc/XkqmAR
+</div>
+<div class="childA">
+活動說明：<br><br>
+本課程希望募集關心公共議題的熱心夥伴一起擔任觀察員，找出桃園都會之美，引領居民思考生活議題，學習撰擬社造計畫，用行動讓桃園變得更美好！
+</div>
+
+</div>
+<center>
+<button type="button" class="btn btn-outline-success">加入我的最愛</button>
+</center>
+
+</center>
+</div>
+<br>
+
