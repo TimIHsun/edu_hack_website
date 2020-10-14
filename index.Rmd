@@ -39,7 +39,7 @@ output:
 <br>
 <center>
 <a href="login.html">
-<button type="button" class="btn btn-outline-success">報名/註冊</button></a>
+<button type="button" class="btn btn-outline-success">登入/註冊</button></a>
 </center>
 <br><br>
 </div>

@@ -7,51 +7,28 @@ output:
       in_header: "bootstrap.html"
       after_body: "boostrapJS.html"
 ---
-<div class="form-group">
-<label for="formGroupExampleInput">姓名</label>
-<input type="text" class="form-control" id="formGroupExampleInput">
+<div style="text-align: center;">
+<font class="highlight">
+登入
+</font>
 </div>
+
+
 <form>
 <div class="form-group">
 <label for="exampleFormControlInput1">電子信箱</label>
 <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
 </div>
 <div class="form-group">
-<label for="formGroupExampleInput">電話</label>
-<input type="number" class="form-control" id="formGroupExampleInput">
+<label for="exampleInputPassword1">Password</label>
+<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
 </div>
-<div class="form-group row">
-<label for="example-date-input" class="col-2 col-form-label">生日</label>
-<div class="col-10">
-<input class="form-control" type="date" value="2000-08-19" id="example-date-input">
-</div>
-</div>
-<div class="form-group">
-<label for="exampleFormControlSelect1">性別</label>
-<select class="form-control" id="exampleFormControlSelect1">
-<option>生理男性</option>
-<option>生理女性</option>
-</select>
-</div>
-<div class="form-group">
-<label for="formGroupExampleInput">學校</label>
-<input type="text" class="form-control" id="formGroupExampleInput" placeholder="芋仔高中">
-</div>
-
-<div class="form-group">
-<label for="exampleFormControlSelect1">年級</label>
-<select class="form-control" id="exampleFormControlSelect1">
-<option>1</option>
-<option>2</option>
-<option>3</option>
-<option>其他</option>
-</select>
-</div>
-</div>
-<br>
 <center>
 <a href="questionnaire.html">
-<button type="button" class="btn btn-outline-success">submit</button></a>
+<button type="button" class="btn btn-outline-success">登入</button></a>
+</a> <br><br>
+<a href="signup.html">
+<button type="button" class="btn btn-outline-success">尚未註冊點此</button></a>
 </a>
 </center>
 </form>
